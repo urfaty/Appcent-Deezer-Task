@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EFA5192583CF2F6623D3EE4 /* Pods_Appcent_Deezer_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9C2AA0C66F77CB4557B9CB /* Pods_Appcent_Deezer_Task.framework */; };
+		8630E3892A096BD8007C8F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3882A096BD8007C8F10 /* AppDelegate.swift */; };
+		8630E38B2A096BD8007C8F10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E38A2A096BD8007C8F10 /* SceneDelegate.swift */; };
+		8630E38D2A096BD8007C8F10 /* MusicCategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E38C2A096BD8007C8F10 /* MusicCategoriesController.swift */; };
+		8630E3902A096BD8007C8F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8630E38E2A096BD8007C8F10 /* Main.storyboard */; };
+		8630E3932A096BD8007C8F10 /* Appcent_Deezer_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3912A096BD8007C8F10 /* Appcent_Deezer_Task.xcdatamodeld */; };
+		8630E3952A096BDA007C8F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8630E3942A096BDA007C8F10 /* Assets.xcassets */; };
+		8630E3982A096BDA007C8F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8630E3962A096BDA007C8F10 /* LaunchScreen.storyboard */; };
+		8630E3A22A096C63007C8F10 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3A12A096C63007C8F10 /* CustomTabBarController.swift */; };
+		8630E3A42A096C9A007C8F10 /* LikedSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3A32A096C9A007C8F10 /* LikedSongsViewController.swift */; };
+		8630E3A62A097217007C8F10 /* MusicCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3A52A097217007C8F10 /* MusicCategoryCell.swift */; };
+		8630E3A82A097453007C8F10 /* MusicCategoriesApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3A72A097453007C8F10 /* MusicCategoriesApiRequest.swift */; };
+		8630E3AA2A09746C007C8F10 /* MusicCategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3A92A09746C007C8F10 /* MusicCategoriesResponse.swift */; };
+		8630E3AC2A098126007C8F10 /* ListingArtistsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3AB2A098126007C8F10 /* ListingArtistsController.swift */; };
+		8630E3AE2A0981B1007C8F10 /* ListingArtistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3AD2A0981B1007C8F10 /* ListingArtistResponse.swift */; };
+		8630E3B22A098BB0007C8F10 /* ListingArtistsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3B12A098BB0007C8F10 /* ListingArtistsCell.swift */; };
+		8630E3B52A098EE3007C8F10 /* ListingArtistsApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3B42A098EE3007C8F10 /* ListingArtistsApiRequest.swift */; };
+		8630E3BE2A0998E1007C8F10 /* ArtistDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3BD2A0998E1007C8F10 /* ArtistDetailResponse.swift */; };
+		8630E3C22A099A4C007C8F10 /* ArtistDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3C12A099A4C007C8F10 /* ArtistDetailController.swift */; };
+		8630E3C42A099D73007C8F10 /* AlbumsOfSelectedArtistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3C32A099D73007C8F10 /* AlbumsOfSelectedArtistResponse.swift */; };
+		8630E3C62A099E64007C8F10 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3C52A099E64007C8F10 /* AlbumCell.swift */; };
+		8630E3C82A09AAE1007C8F10 /* ArtistDetailApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3C72A09AAE1007C8F10 /* ArtistDetailApiRequest.swift */; };
+		8630E3CC2A0A3694007C8F10 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3CB2A0A3694007C8F10 /* AlbumDetailViewController.swift */; };
+		8630E3CE2A0A36F4007C8F10 /* AlbumDetailApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3CD2A0A36F4007C8F10 /* AlbumDetailApiRequest.swift */; };
+		8630E3D02A0A3731007C8F10 /* AlbumDetailApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3CF2A0A3731007C8F10 /* AlbumDetailApiResponse.swift */; };
+		8630E3D22A0A3FBB007C8F10 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3D12A0A3FBB007C8F10 /* SongCell.swift */; };
+		8630E3D52A0A4368007C8F10 /* PlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3D42A0A4368007C8F10 /* PlayerControlView.swift */; };
+		8630E3D72A0A4DD0007C8F10 /* LocalDatabaseForLikedSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630E3D62A0A4DD0007C8F10 /* LocalDatabaseForLikedSongs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D9C2AA0C66F77CB4557B9CB /* Pods_Appcent_Deezer_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcent_Deezer_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8630E3852A096BD8007C8F10 /* Appcent-Deezer-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appcent-Deezer-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8630E3882A096BD8007C8F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8630E38A2A096BD8007C8F10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8630E38C2A096BD8007C8F10 /* MusicCategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCategoriesController.swift; sourceTree = "<group>"; };
+		8630E38F2A096BD8007C8F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8630E3922A096BD8007C8F10 /* Appcent_Deezer_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Appcent_Deezer_Task.xcdatamodel; sourceTree = "<group>"; };
+		8630E3942A096BDA007C8F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8630E3972A096BDA007C8F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8630E3992A096BDA007C8F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8630E3A12A096C63007C8F10 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		8630E3A32A096C9A007C8F10 /* LikedSongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedSongsViewController.swift; sourceTree = "<group>"; };
+		8630E3A52A097217007C8F10 /* MusicCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCategoryCell.swift; sourceTree = "<group>"; };
+		8630E3A72A097453007C8F10 /* MusicCategoriesApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCategoriesApiRequest.swift; sourceTree = "<group>"; };
+		8630E3A92A09746C007C8F10 /* MusicCategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCategoriesResponse.swift; sourceTree = "<group>"; };
+		8630E3AB2A098126007C8F10 /* ListingArtistsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingArtistsController.swift; sourceTree = "<group>"; };
+		8630E3AD2A0981B1007C8F10 /* ListingArtistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingArtistResponse.swift; sourceTree = "<group>"; };
+		8630E3B12A098BB0007C8F10 /* ListingArtistsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingArtistsCell.swift; sourceTree = "<group>"; };
+		8630E3B42A098EE3007C8F10 /* ListingArtistsApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingArtistsApiRequest.swift; sourceTree = "<group>"; };
+		8630E3BD2A0998E1007C8F10 /* ArtistDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailResponse.swift; sourceTree = "<group>"; };
+		8630E3C12A099A4C007C8F10 /* ArtistDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailController.swift; sourceTree = "<group>"; };
+		8630E3C32A099D73007C8F10 /* AlbumsOfSelectedArtistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsOfSelectedArtistResponse.swift; sourceTree = "<group>"; };
+		8630E3C52A099E64007C8F10 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		8630E3C72A09AAE1007C8F10 /* ArtistDetailApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailApiRequest.swift; sourceTree = "<group>"; };
+		8630E3CB2A0A3694007C8F10 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		8630E3CD2A0A36F4007C8F10 /* AlbumDetailApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailApiRequest.swift; sourceTree = "<group>"; };
+		8630E3CF2A0A3731007C8F10 /* AlbumDetailApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailApiResponse.swift; sourceTree = "<group>"; };
+		8630E3D12A0A3FBB007C8F10 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		8630E3D42A0A4368007C8F10 /* PlayerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlView.swift; sourceTree = "<group>"; };
+		8630E3D62A0A4DD0007C8F10 /* LocalDatabaseForLikedSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabaseForLikedSongs.swift; sourceTree = "<group>"; };
+		EEF437269843674A45D2AEFF /* Pods-Appcent-Deezer-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent-Deezer-Task.release.xcconfig"; path = "Target Support Files/Pods-Appcent-Deezer-Task/Pods-Appcent-Deezer-Task.release.xcconfig"; sourceTree = "<group>"; };
+		F2D206BC48251766F8DF2686 /* Pods-Appcent-Deezer-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent-Deezer-Task.debug.xcconfig"; path = "Target Support Files/Pods-Appcent-Deezer-Task/Pods-Appcent-Deezer-Task.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8630E3822A096BD8007C8F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFA5192583CF2F6623D3EE4 /* Pods_Appcent_Deezer_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00083FEDEA5DE7A2B8D2FA37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2D206BC48251766F8DF2686 /* Pods-Appcent-Deezer-Task.debug.xcconfig */,
+				EEF437269843674A45D2AEFF /* Pods-Appcent-Deezer-Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1B87997EF55792C0176EA51A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D9C2AA0C66F77CB4557B9CB /* Pods_Appcent_Deezer_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8630E37C2A096BD8007C8F10 = {
+			isa = PBXGroup;
+			children = (
+				8630E3872A096BD8007C8F10 /* Appcent-Deezer-Task */,
+				8630E3862A096BD8007C8F10 /* Products */,
+				00083FEDEA5DE7A2B8D2FA37 /* Pods */,
+				1B87997EF55792C0176EA51A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8630E3862A096BD8007C8F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8630E3852A096BD8007C8F10 /* Appcent-Deezer-Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8630E3872A096BD8007C8F10 /* Appcent-Deezer-Task */ = {
+			isa = PBXGroup;
+			children = (
+				8630E3D32A0A4360007C8F10 /* View */,
+				8630E3B32A098C9E007C8F10 /* Cell */,
+				8630E3B02A0984BA007C8F10 /* ApiRequest */,
+				8630E3AF2A0984B1007C8F10 /* Model */,
+				8630E3A02A096C44007C8F10 /* Controller */,
+				8630E39F2A096C38007C8F10 /* Delegate */,
+				8630E38E2A096BD8007C8F10 /* Main.storyboard */,
+				8630E3942A096BDA007C8F10 /* Assets.xcassets */,
+				8630E3962A096BDA007C8F10 /* LaunchScreen.storyboard */,
+				8630E3992A096BDA007C8F10 /* Info.plist */,
+				8630E3912A096BD8007C8F10 /* Appcent_Deezer_Task.xcdatamodeld */,
+			);
+			path = "Appcent-Deezer-Task";
+			sourceTree = "<group>";
+		};
+		8630E39F2A096C38007C8F10 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8630E3882A096BD8007C8F10 /* AppDelegate.swift */,
+				8630E38A2A096BD8007C8F10 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		8630E3A02A096C44007C8F10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8630E3CB2A0A3694007C8F10 /* AlbumDetailViewController.swift */,
+				8630E3C12A099A4C007C8F10 /* ArtistDetailController.swift */,
+				8630E3A12A096C63007C8F10 /* CustomTabBarController.swift */,
+				8630E38C2A096BD8007C8F10 /* MusicCategoriesController.swift */,
+				8630E3A32A096C9A007C8F10 /* LikedSongsViewController.swift */,
+				8630E3AB2A098126007C8F10 /* ListingArtistsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8630E3AF2A0984B1007C8F10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8630E3D62A0A4DD0007C8F10 /* LocalDatabaseForLikedSongs.swift */,
+				8630E3AD2A0981B1007C8F10 /* ListingArtistResponse.swift */,
+				8630E3BD2A0998E1007C8F10 /* ArtistDetailResponse.swift */,
+				8630E3A92A09746C007C8F10 /* MusicCategoriesResponse.swift */,
+				8630E3C32A099D73007C8F10 /* AlbumsOfSelectedArtistResponse.swift */,
+				8630E3CF2A0A3731007C8F10 /* AlbumDetailApiResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8630E3B02A0984BA007C8F10 /* ApiRequest */ = {
+			isa = PBXGroup;
+			children = (
+				8630E3CD2A0A36F4007C8F10 /* AlbumDetailApiRequest.swift */,
+				8630E3A72A097453007C8F10 /* MusicCategoriesApiRequest.swift */,
+				8630E3B42A098EE3007C8F10 /* ListingArtistsApiRequest.swift */,
+				8630E3C72A09AAE1007C8F10 /* ArtistDetailApiRequest.swift */,
+			);
+			path = ApiRequest;
+			sourceTree = "<group>";
+		};
+		8630E3B32A098C9E007C8F10 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8630E3A52A097217007C8F10 /* MusicCategoryCell.swift */,
+				8630E3B12A098BB0007C8F10 /* ListingArtistsCell.swift */,
+				8630E3C52A099E64007C8F10 /* AlbumCell.swift */,
+				8630E3D12A0A3FBB007C8F10 /* SongCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8630E3D32A0A4360007C8F10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8630E3D42A0A4368007C8F10 /* PlayerControlView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8630E3842A096BD8007C8F10 /* Appcent-Deezer-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8630E39C2A096BDA007C8F10 /* Build configuration list for PBXNativeTarget "Appcent-Deezer-Task" */;
+			buildPhases = (
+				3413D837A85DD7F0575C984A /* [CP] Check Pods Manifest.lock */,
+				8630E3812A096BD8007C8F10 /* Sources */,
+				8630E3822A096BD8007C8F10 /* Frameworks */,
+				8630E3832A096BD8007C8F10 /* Resources */,
+				144EC5C909C6D5070145C6DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Appcent-Deezer-Task";
+			productName = "Appcent-Deezer-Task";
+			productReference = 8630E3852A096BD8007C8F10 /* Appcent-Deezer-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8630E37D2A096BD8007C8F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8630E3842A096BD8007C8F10 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 8630E3802A096BD8007C8F10 /* Build configuration list for PBXProject "Appcent-Deezer-Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8630E37C2A096BD8007C8F10;
+			productRefGroup = 8630E3862A096BD8007C8F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8630E3842A096BD8007C8F10 /* Appcent-Deezer-Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8630E3832A096BD8007C8F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8630E3982A096BDA007C8F10 /* LaunchScreen.storyboard in Resources */,
+				8630E3952A096BDA007C8F10 /* Assets.xcassets in Resources */,
+				8630E3902A096BD8007C8F10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		144EC5C909C6D5070145C6DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcent-Deezer-Task/Pods-Appcent-Deezer-Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcent-Deezer-Task/Pods-Appcent-Deezer-Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcent-Deezer-Task/Pods-Appcent-Deezer-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3413D837A85DD7F0575C984A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Appcent-Deezer-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8630E3812A096BD8007C8F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8630E3A42A096C9A007C8F10 /* LikedSongsViewController.swift in Sources */,
+				8630E3CE2A0A36F4007C8F10 /* AlbumDetailApiRequest.swift in Sources */,
+				8630E3D72A0A4DD0007C8F10 /* LocalDatabaseForLikedSongs.swift in Sources */,
+				8630E38D2A096BD8007C8F10 /* MusicCategoriesController.swift in Sources */,
+				8630E3A62A097217007C8F10 /* MusicCategoryCell.swift in Sources */,
+				8630E3B52A098EE3007C8F10 /* ListingArtistsApiRequest.swift in Sources */,
+				8630E3A82A097453007C8F10 /* MusicCategoriesApiRequest.swift in Sources */,
+				8630E3D52A0A4368007C8F10 /* PlayerControlView.swift in Sources */,
+				8630E3C22A099A4C007C8F10 /* ArtistDetailController.swift in Sources */,
+				8630E3892A096BD8007C8F10 /* AppDelegate.swift in Sources */,
+				8630E3C82A09AAE1007C8F10 /* ArtistDetailApiRequest.swift in Sources */,
+				8630E3AC2A098126007C8F10 /* ListingArtistsController.swift in Sources */,
+				8630E3932A096BD8007C8F10 /* Appcent_Deezer_Task.xcdatamodeld in Sources */,
+				8630E3A22A096C63007C8F10 /* CustomTabBarController.swift in Sources */,
+				8630E3D22A0A3FBB007C8F10 /* SongCell.swift in Sources */,
+				8630E3BE2A0998E1007C8F10 /* ArtistDetailResponse.swift in Sources */,
+				8630E3C42A099D73007C8F10 /* AlbumsOfSelectedArtistResponse.swift in Sources */,
+				8630E3AA2A09746C007C8F10 /* MusicCategoriesResponse.swift in Sources */,
+				8630E3B22A098BB0007C8F10 /* ListingArtistsCell.swift in Sources */,
+				8630E3D02A0A3731007C8F10 /* AlbumDetailApiResponse.swift in Sources */,
+				8630E3AE2A0981B1007C8F10 /* ListingArtistResponse.swift in Sources */,
+				8630E38B2A096BD8007C8F10 /* SceneDelegate.swift in Sources */,
+				8630E3CC2A0A3694007C8F10 /* AlbumDetailViewController.swift in Sources */,
+				8630E3C62A099E64007C8F10 /* AlbumCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8630E38E2A096BD8007C8F10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8630E38F2A096BD8007C8F10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8630E3962A096BDA007C8F10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8630E3972A096BDA007C8F10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8630E39A2A096BDA007C8F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8630E39B2A096BDA007C8F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8630E39D2A096BDA007C8F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D206BC48251766F8DF2686 /* Pods-Appcent-Deezer-Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZYPK72R73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Appcent-Deezer-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tayfursalihsen.Appcent-Deezer-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8630E39E2A096BDA007C8F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF437269843674A45D2AEFF /* Pods-Appcent-Deezer-Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZYPK72R73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Appcent-Deezer-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tayfursalihsen.Appcent-Deezer-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8630E3802A096BD8007C8F10 /* Build configuration list for PBXProject "Appcent-Deezer-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8630E39A2A096BDA007C8F10 /* Debug */,
+				8630E39B2A096BDA007C8F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8630E39C2A096BDA007C8F10 /* Build configuration list for PBXNativeTarget "Appcent-Deezer-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8630E39D2A096BDA007C8F10 /* Debug */,
+				8630E39E2A096BDA007C8F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8630E3912A096BD8007C8F10 /* Appcent_Deezer_Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8630E3922A096BD8007C8F10 /* Appcent_Deezer_Task.xcdatamodel */,
+			);
+			currentVersion = 8630E3922A096BD8007C8F10 /* Appcent_Deezer_Task.xcdatamodel */;
+			path = Appcent_Deezer_Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8630E37D2A096BD8007C8F10 /* Project object */;
+}
